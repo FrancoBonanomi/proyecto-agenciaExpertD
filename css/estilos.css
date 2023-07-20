@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/************** Reset Styles*****************/
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+/************** Bootstrap Styles*****************/
+
+.nav-link:hover {
+  color: #3f3f3f;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.carousel {
+  max-height: 650px;
+  overflow: hidden;
+}
+
+.articulo-cards img {
+  width: 180px;
+}
+
+/************** My Styles*****************/
+
+.nav-link-color {
+  color: #3f3f3f;
+}
+
+.informacion-secundaria {
+  position: relative;
+}
+
+.informacion-secundaria::after {
+  content: "";
+  height: 50px;
+  width: 2px;
+  background-color: #3f3f3f;
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+.contacto-container {
+  max-width: 500px;
+  min-width: 340px;
+}
+
+#bg-contactos {
+  position: relative;
+  top: -75px;
+}
+
+.seccion3 {
+  padding-bottom: 250px;
+}
+.seccion4 {
+  background-color: #1b2a4e;
+  min-height: 550px;
+  position: relative;
+}
+
+.contacto-container {
+  top: -150px;
+}
+footer {
+  background-color: #1b2a4e;
+}
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .articulo-cards {
+    width: 80%;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .articulo-centrado {
+    width: 60%;
+  }
+
+  .articulo-info {
+    width: 55%;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
